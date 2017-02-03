@@ -1,62 +1,62 @@
-\chapter{不純物を含まないクリーンな系における強結合理論}\label{sec:append:pure}
+\chapter{�s�������܂܂Ȃ��N���[���Ȍn�ɂ����鋭�������_}\label{sec:append:pure}
 
-\s{絶対零度における BCS-Leggett 理論}\label{sec:append:pure:bcsl}
+\s{��Η�x�ɂ����� BCS-Leggett ���_}\label{sec:append:pure:bcsl}
 
-不純物が存在しないクリーンな系では、式 (\ref{eq:form:mnf:gapeq}) と (\ref{eq:form:mnf:numeq}) は次のようになる。
+�s���������݂��Ȃ��N���[���Ȍn�ł́A�� (\ref{eq:form:mnf:gapeq}) �� (\ref{eq:form:mnf:numeq}) �͎��̂悤�ɂȂ�B
 \beq
 &\frac{m}{4 \pi \as} + \sum_{\bp}\left[ \frac{1}{\beta}\sumn\frac{1}{\omn^2+\del^2 + (\ken_{\bp}-\cpt)^2} - \frac{1}{2 \ken_{\bp}}\right] = 0,\label{eq:append:matsu:del}\\
 &N = \sum_{\bp} \left[ 1 - \frac{2}{\beta}\sum_n \frac{ \ken_{\bp} - \cpt}{\omn^2+\del^2+(\ken_{\bp}-\cpt)^2} \right].\label{eq:append:matsu:num}
 \eeq
-松原周波数の和は計算することができて、後者は、
+�������g���̘a�͌v�Z���邱�Ƃ��ł��āA��҂́A
 \beq
  \frac{1}{\beta}\sumn\frac{1}{\omn^2+\del^2 + (\ken_{\bp}-\cpt)^2}=  \frac{\tanh \frac{ \beta E_p}{2}}{2E_p}.\label{eq:append:matsu:int}
  \eeq
-ここで $E_p = \sqrt{\del^2 + (\ken_p-\cpt)^2}$ は超流動状態における 1 粒子励起スペクトルを表す。
+������ $E_p = \sqrt{\del^2 + (\ken_p-\cpt)^2}$ �͒�������Ԃɂ����� 1 ���q��N�X�y�N�g����\���B
 
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=80mm]{eps/pure-bcsl.eps}
-\caption{BCS-Leggett 理論で得られたクリーンな系の (a)超流動秩序変数 $\del$、 と (b)化学ポテンシャル $\cpt$。実線はBCS-Leggett 理論による結果。破線は BCS 極限の結果で $\del$ は式 (\ref{eq:append:pure:limitbcs})、$\cpt$ は $\eqf$ で与えられる。点破線は BEC 極限の結果で $\del$ は式 (\ref{eq:append:pure:limitbec-del})、$\cpt$ は式 (\ref{eq:append:pure:limitbec-cpt}) で与えられる。}
+\caption{BCS-Leggett ���_�œ���ꂽ�N���[���Ȍn�� (a)�����������ϐ� $\del$�A �� (b)���w�|�e���V���� $\cpt$�B������BCS-Leggett ���_�ɂ�錋�ʁB�j���� BCS �Ɍ��̌��ʂ� $\del$ �͎� (\ref{eq:append:pure:limitbcs})�A$\cpt$ �� $\eqf$ �ŗ^������B�_�j���� BEC �Ɍ��̌��ʂ� $\del$ �͎� (\ref{eq:append:pure:limitbec-del})�A$\cpt$ �͎� (\ref{eq:append:pure:limitbec-cpt}) �ŗ^������B}
 \label{fig:bcsl:pure:bcsl}
 \end{figure}
 
-式 (\ref{eq:append:matsu:int}) を用いれば、式 (\ref{eq:append:matsu:del})、(\ref{eq:append:matsu:num}) は、
+�� (\ref{eq:append:matsu:int}) ��p����΁A�� (\ref{eq:append:matsu:del})�A(\ref{eq:append:matsu:num}) �́A
 \beq
 &\frac{m}{4 \pi a_s} + \sum_{\bp} \left[\frac{\tanh \frac{ \beta E_p}{2}}{2E_p}  - \frac{1}{2 \ken_{\bp}} \right] = 0,\label{eq:append:pure:del}\\
 &N = \sum_{\bp} \left[ 1 - \frac{\ken_{\bp} - \cpt}{ E_p}\tanh \frac{\beta E_p}{2}\right].\label{eq:append:pure:num}
 \eeq
-特に $T=0$ においては $E_p>0$ に注意して、
+���� $T=0$ �ɂ����Ă� $E_p>0$ �ɒ��ӂ��āA
 \beq
 &\frac{m}{4 \pi a_s} + \sum_{\bp} \left[\frac{ 1}{ 2 E_p} - \frac{1}{2 \ken_{\bp}} \right],\label{eq:append:pure:del2}\\
 &N = \sum_{\bp}\left[1- \frac{\ken_{\bp}-\cpt}{2E_{\bp}}\right],\label{eq:append:pure:num2}
 \eeq
-となる。
+�ƂȂ�B
 
-弱結合 BCS 極限では $\cpt=\eqf$ であり、また $\del\ll \eqf$ に注意すると、式 (\ref{eq:append:pure:del2}) から、
+�㌋�� BCS �Ɍ��ł� $\cpt=\eqf$ �ł���A�܂� $\del\ll \eqf$ �ɒ��ӂ���ƁA�� (\ref{eq:append:pure:del2}) ����A
 \beq
 \varDelta = 8 e^{\frac{\pi}{2 \askf} - 2} \eqf, \label{eq:append:pure:limitbcs}
 \eeq
-を得る。
+�𓾂�B
 
-一方で、強結合 BEC 極限 $\askfi \to \infty$ では、式 (\ref{eq:append:pure:del2}) より、
+����ŁA������ BEC �Ɍ� $\askfi \to \infty$ �ł́A�� (\ref{eq:append:pure:del2}) ���A
 \beq
 \cpt = - \frac{1}{(\askf)^2} \eqf, \label{eq:append:pure:limitbec-cpt}
 \eeq
-が得られるが、これは 2 体束縛状態の結合エネルギーの半分の大きさに等しい。これを式 (\ref{eq:append:pure:num2}) に代入すると、
+�������邪�A����� 2 �̑�����Ԃ̌����G�l���M�[�̔����̑傫���ɓ������B������� (\ref{eq:append:pure:num2}) �ɑ������ƁA
 \beq
 \del = \sqrt{\frac{16}{3 \pi}} |\cpt|^{1/4} \eqf^{3/4}, \label{eq:append:pure:limitbec-del}
 \eeq
-が得られる。
+��������B
 
-図 \ref{fig:bcsl:pure:bcsl} には、BCS-Leggett 理論の方程式 (\ref{eq:append:pure:del2}), (\ref{eq:append:pure:num2}) を自己無撞着に解いて得られた $\del$ と $\cpt$、および BCS極限、BEC 極限の結果をまとめてある。
+�} \ref{fig:bcsl:pure:bcsl} �ɂ́ABCS-Leggett ���_�̕����� (\ref{eq:append:pure:del2}), (\ref{eq:append:pure:num2}) �����Ȗ������ɉ����ē���ꂽ $\del$ �� $\cpt$�A����� BCS�Ɍ��ABEC �Ɍ��̌��ʂ��܂Ƃ߂Ă���B
 
 
-\s{不純物がない場合の $T$ 行列近似（正常相：$T\ge \tc$）} \label{sec:append:pure:tma}
+\s{�s�������Ȃ��ꍇ�� $T$ �s��ߎ��i���푊�F$T\ge \tc$�j} \label{sec:append:pure:tma}
  
-ここでは、不純物を含まないフェルミ原子気体に対する通常の $T$ 行列近似の表式をまとめる。
+�����ł́A�s�������܂܂Ȃ��t�F���~���q�C�̂ɑ΂���ʏ�� $T$ �s��ߎ��̕\�����܂Ƃ߂�B
 
-式 (\ref{eq:form:tma:sigpom}) から式 (\ref{eq:form:tma:piimp}) において、$c=0$（つまり不純物なし）とすることは、$\gimppom$ を $\gzrpom$ に、$\vtxp$ を $1$ に置き換えることに対応する。すると、
+�� (\ref{eq:form:tma:sigpom}) ���玮 (\ref{eq:form:tma:piimp}) �ɂ����āA$c=0$�i�܂�s�����Ȃ��j�Ƃ��邱�Ƃ́A$\gimppom$ �� $\gzrpom$ �ɁA$\vtxp$ �� $1$ �ɒu�������邱�ƂɑΉ�����B����ƁA
 \beq
 \left[\gpom\right]^{-1} &= \left[ \gzrpom\right]^{-1} - \sigpom,\label{eq:append:tma:g}\\
 \sigpom &= \frac{1}{\beta} \sumn \sum_{\bq} \gamqnu \gzrqnu,\label{eq:append:tma:sig}\\
@@ -64,100 +64,100 @@
 \piqnu &= \frac{1}{\beta} \sumn \sum_{\bp} \gzrpom \gzrqnu.\label{eq:append:tma:pi}
 \eeq
 
-実際、これはクリーンな系のフェルミ原子気体の BCS-BEC クロスオーバー領域の研究で用いられる $T$ 行列近似の表式に一致する \cite{ohashi2005}。
+���ہA����̓N���[���Ȍn�̃t�F���~���q�C�̂� BCS-BEC �N���X�I�[�o�[�̈�̌����ŗp������ $T$ �s��ߎ��̕\���Ɉ�v���� \cite{ohashi2005}�B
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=80mm]{eps/pure-tma.eps}
-\caption{$T$ 行列近似で得られた、不純物を含まないフェルミ原子気体の BCS-BEC クロスオーバー領域における (a)超流動転移温度 $\tc$ と (b)化学ポテンシャル $\cpt(T=\tc)$ }
+\caption{$T$ �s��ߎ��œ���ꂽ�A�s�������܂܂Ȃ��t�F���~���q�C�̂� BCS-BEC �N���X�I�[�o�[�̈�ɂ����� (a)�������]�ډ��x $\tc$ �� (b)���w�|�e���V���� $\cpt(T=\tc)$ }
 \label{fig:bcsl:pure:tma}
 \end{figure}
 
 
-式 (\ref{eq:append:tma:pi}) の松原周波数の和はクリーンな系では実行することができ、
+�� (\ref{eq:append:tma:pi}) �̏������g���̘a�̓N���[���Ȍn�ł͎��s���邱�Ƃ��ł��A
 \beq
 \piqnu &= - \frac{1}{2}\sum_{\bp} \left[\frac{\tanh\frac{\beta\left[\ken_{\bp+\bqt}-\cpt\right]}{2}+\tanh\frac{\beta\left[\ken_{\bp-\bqt}-\cpt\right]}{2}}{i\num -2 (\ken_{p}+\ken_{q/2} -  \mu)}\right].\label{eq:append:tma:pii}
 \eeq
-ここで式 (\ref{eq:append:tma:pii}) では $\bp\to \bp+\bqt$ と取り直した。式 (\ref{eq:append:tma:pii}) を用いると、サウレスの判定条件は、式 (\ref{eq:append:tma:gam}) の分母を $\bq=0$, $i\num=0$ に対し 0 として、
+�����Ŏ� (\ref{eq:append:tma:pii}) �ł� $\bp\to \bp+\bqt$ �Ǝ�蒼�����B�� (\ref{eq:append:tma:pii}) ��p����ƁA�T�E���X�̔�������́A�� (\ref{eq:append:tma:gam}) �̕���� $\bq=0$, $i\num=0$ �ɑ΂� 0 �Ƃ��āA
 \beq
 1&=U \varPi_{\bq=0}(i\num=0) \notag\\
 &= -\frac{4\pi a_s}{m}\sum_{\bp} \left[ \frac{\tanh\frac{\beta \left[\ken_{\bp}-\cpt\right]}{2}}{2(\ken_{\bp} -  \cpt)}- \frac{1}{2 \ken_p} \right].\label{eq:append:tma:tcdet}
 \eeq
-これは、式 (\ref{eq:append:pure:del}) のギャップ方程式で $\del=0$ としたものと一致する。粒子数方程式は、式 (\ref{eq:append:tma:g}) を式 (\ref{eq:form:tma:number}) に用いることで得られる。こうして得られた $\tc$ の方程式 (\ref{eq:append:tma:tcdet}) と粒子数方程式から $\tc$ と $\cpt$ を自己無撞着に決定して得られたものが図 \ref{fig:bcsl:pure:tma} である。
+����́A�� (\ref{eq:append:pure:del}) �̃M���b�v�������� $\del=0$ �Ƃ������̂ƈ�v����B���q���������́A�� (\ref{eq:append:tma:g}) ���� (\ref{eq:form:tma:number}) �ɗp���邱�Ƃœ�����B�������ē���ꂽ $\tc$ �̕����� (\ref{eq:append:tma:tcdet}) �Ɨ��q������������ $\tc$ �� $\cpt$ �����Ȗ������Ɍ��肵�ē���ꂽ���̂��} \ref{fig:bcsl:pure:tma} �ł���B
 
-平均場 BCS 理論は、粒子数方程式 (\ref{eq:append:tma:g}) でグリーン関数 $\gpom$ を自由フェルミ気体のそれに置き換えたもの、
+���Ϗ� BCS ���_�́A���q�������� (\ref{eq:append:tma:g}) �ŃO���[���֐� $\gpom$ �����R�t�F���~�C�̂̂���ɒu�����������́A
 \beq
 \gpom \Rightarrow \gzrpom = \frac{1}{i \omn - (\ken_p-\cpt)},
 \eeq
-と、サウレスの判定条件 (\ref{eq:append:tma:tcdet}) で構成される。通常、弱結合 BCS 領域を考える場合は更に $\cpt = \eqf$ とし、粒子数方程式は扱わずにギャップ方程式 (\ref{eq:append:tma:tcdet}) のみを扱う。
+�ƁA�T�E���X�̔������ (\ref{eq:append:tma:tcdet}) �ō\�������B�ʏ�A�㌋�� BCS �̈���l����ꍇ�͍X�� $\cpt = \eqf$ �Ƃ��A���q���������͈��킸�ɃM���b�v������ (\ref{eq:append:tma:tcdet}) �݂̂������B
 
-強結合 BEC 極限は $\tc$ 以上ですでに形成された分子ボソンの BEC として超流動転移が記述される。今、全てのフェルミ原子が $N/2$ 個の分子を形成しているとすると、この理想分子ボース気体の BEC 転移温度は分子ボソンの運動エネルギーを $E_q\equiv q^2/(2M)$ と書いて、
+������ BEC �Ɍ��� $\tc$ �ȏ�ł��łɌ`�����ꂽ���q�{�\���� BEC �Ƃ��Ē������]�ڂ��L�q�����B���A�S�Ẵt�F���~���q�� $N/2$ �̕��q���`�����Ă���Ƃ���ƁA���̗��z���q�{�[�X�C�̂� BEC �]�ډ��x�͕��q�{�\���̉^���G�l���M�[�� $E_q\equiv q^2/(2M)$ �Ə����āA
 \beq
 \frac{N}{2}& =\frac{k_{\text{F}}^3}{6\pi^2} = \sum_q \frac{1}{e^{\beta E_q}-1} = \frac{k_{\text{F}}^3}{4 \pi^2} \left[ 2 \frac{T_{\text{BEC}}}{\eqf}\right]^{3/2}\zeta(3/2) \varGamma(3/2),
 \eeq
-よりもとまる。これを $T_{\text{BEC}}$ に対して解くと、
+�����Ƃ܂�B����� $T_{\text{BEC}}$ �ɑ΂��ĉ����ƁA
 \beq
 T_{\text{BEC}} = \frac{1}{2} \left[\frac{2}{3 \zeta\left(\frac{3}{2}\right) \varGamma\left(\frac{3}{2}\right)}\right]^{3/2} \eqf \simeq 0.218 \eqf,\label{eq:append:tma:bose}
 \eeq
-を得る。図 \ref{fig:bcsl:pure:tma} に示すように $T$ 行列近似で計算された $\tc$ は、$\askfi \to \infty$ の BEC 極限で式 (\ref{eq:append:tma:bose}) で与えられる $T_{\text{BEC}}$ に漸近する。
+�𓾂�B�} \ref{fig:bcsl:pure:tma} �Ɏ����悤�� $T$ �s��ߎ��Ōv�Z���ꂽ $\tc$ �́A$\askfi \to \infty$ �� BEC �Ɍ��Ŏ� (\ref{eq:append:tma:bose}) �ŗ^������ $T_{\text{BEC}}$ �ɑQ�߂���B
 
 
 
 
-\chapter{アンダーソンの定理}\label{sec:append:anderson}
+\chapter{�A���_�[�\���̒藝}\label{sec:append:anderson}
 
-粒子-ホール対称性を課し、運動量積分をエネルギー積分に変換した際、1 粒子状態密度のエネルギー依存性を無視してフェルミ面での値で近似すると、
+���q-�z�[���Ώ̐����ۂ��A�^���ʐϕ����G�l���M�[�ϕ��ɕϊ������ہA1 ���q��Ԗ��x�̃G�l���M�[�ˑ����𖳎����ăt�F���~�ʂł̒l�ŋߎ�����ƁA
 \beq
 \sum_{\bp}\frac{ (\ken_{\bp} - \tcptn) \tau_3}{\tomn^2 + \tdeln^2 + (\ken_{\bp}-\tcptn)^2}&\simeq \fdos \int^{\infty}_{-\infty} \diff \ken \frac{(\ken + \cpt- \tcptn) \tau_3}{\tomn^2 + \tdeln^2 + (\ken+\cpt-\tcptn)^2}\notag\\
-&= \fdos \int^{\infty}_{-\infty} \diff \ken \frac{\ken \tau_3}{\tomn^2 + \tdeln^2 + \ken^2}　 = 0,
+&= \fdos \int^{\infty}_{-\infty} \diff \ken \frac{\ken \tau_3}{\tomn^2 + \tdeln^2 + \ken^2}�@ = 0,
 \eeq
-となり、化学ポテンシャルシフトの松原周波数依存性がなくなる。ここでフェルミエネルギーは十分大きいとして、エネルギー積分の下限を $-\infty$ とした。この時、式 (\ref{eq:form:mnf:gapeq}) は、$\tcptn = \cpt$ として、
+�ƂȂ�A���w�|�e���V�����V�t�g�̏������g���ˑ������Ȃ��Ȃ�B�����Ńt�F���~�G�l���M�[�͏\���傫���Ƃ��āA�G�l���M�[�ϕ��̉����� $-\infty$ �Ƃ����B���̎��A�� (\ref{eq:form:mnf:gapeq}) �́A$\tcptn = \cpt$ �Ƃ��āA
 \beq
 \frac{m}{4 \pi \as} + \sum_{\bp}\left[ \frac{1}{\beta}\sumn \frac{ \tdeln}{\del} \frac{1}{\tomn^2+\tdeln^2 + (\ken_{\bp}-\cpt)^2} - \frac{1}{2 \ken_{\bp}}\right] = 0,
 \eeq
-となる。さらに、
+�ƂȂ�B����ɁA
 \beq
 \sum_{\bp} \frac{ \tdeln}{\del} \frac{1}{\tomn^2+\tdeln^2 + (\ken_{\bpp}-\cpt)^2} & = \fdos \int^{\infty}_{-\infty} \diff \ken \frac{ \tdeln}{\del} \frac{1}{\tomn^2+\tdeln^2 + \ken^2} \notag\\
 &= \fdos \frac{ \tdeln}{\del} \frac{\pi}{\sqrt{\tomn^2+\tdeln^2 }},
 \eeq
-および式 (\ref{eq:form:mnf:nonmag}) の等式 $\omn/\omega=\tdeln/\del$ を用いれば、
+����ю� (\ref{eq:form:mnf:nonmag}) �̓��� $\omn/\omega=\tdeln/\del$ ��p����΁A
 \beq
 \frac{m}{4 \pi \as} +\frac{1}{\beta}\sumn \frac{1}{\sqrt{\omega^2+\del^2}}-\sum_{\bp}\frac{1}{2 \ken_{\bp}}= 0.\label{eq:append:mnf:gapgap}
 \eeq
-式 (\ref{eq:append:mnf:gapgap}) は、非磁性不純物を含まない場合のギャップ方程式に一致する。よってこの場合、非磁性不純物散乱は超流動秩序パラメータに影響を与えない（アンダーソンの定理）。
+�� (\ref{eq:append:mnf:gapgap}) �́A�񎥐��s�������܂܂Ȃ��ꍇ�̃M���b�v�������Ɉ�v����B����Ă��̏ꍇ�A�񎥐��s�����U���͒����������p�����[�^�ɉe����^���Ȃ��i�A���_�[�\���̒藝�j�B
 
 
 
-\chapter{超流動転移温度以下の不純物 $T$ 行列理論}\label{sec:append:imptmasf}
+\chapter{�������]�ډ��x�ȉ��̕s���� $T$ �s�񗝘_}\label{sec:append:imptmasf}
 
-ここでは \ref{sec:form:tmat} 節で説明した超流動転移温度以上の $T$ 行列理論を超流動状態に拡張する方法を説明する。\ref{sec:append:outoukansu} 節でまず、\ref{sec:form:bcsl} 節で定式化した非磁性不純物を含む BCS-Leggett 理論で記述される超流動状態に対し、超流動ゆらぎを加えた場合の対波動関数応答を線形応答で調べる。\ref{sec:append:outoukansudiagram} 節は、その応答関数を与えるダイアグラムを説明する。\ref{sec:append:outouttmat} 節でこのダイアグラムを自己エネルギーに取り込むことで、非磁性不純物を含む有限温度の $T$ 行列理論を構成する。最後に \ref{sec:append:rewritetmat} 節で、\ref{sec:form:tmat} 節で説明した超流動転移温度以上での理論にどうつながるか説明する。
+�����ł� \ref{sec:form:tmat} �߂Ő��������������]�ډ��x�ȏ�� $T$ �s�񗝘_�𒴗�����ԂɊg��������@���������B\ref{sec:append:outoukansu} �߂ł܂��A\ref{sec:form:bcsl} �߂Œ莮�������񎥐��s�������܂� BCS-Leggett ���_�ŋL�q����钴������Ԃɑ΂��A��������炬���������ꍇ�̑Δg���֐���������`�����Œ��ׂ�B\ref{sec:append:outoukansudiagram} �߂́A���̉����֐���^����_�C�A�O�������������B\ref{sec:append:outouttmat} �߂ł��̃_�C�A�O���������ȃG�l���M�[�Ɏ�荞�ނ��ƂŁA�񎥐��s�������܂ޗL�����x�� $T$ �s�񗝘_���\������B�Ō�� \ref{sec:append:rewritetmat} �߂ŁA\ref{sec:form:tmat} �߂Ő��������������]�ډ��x�ȏ�ł̗��_�ɂǂ��Ȃ��邩��������B
 
 
-\section{超流動揺らぎに対する対波動関数の応答関数}\label{sec:append:outoukansu}
-非磁性不純物を含む系において、どのようなダイアグラムが超流動揺らぎに寄与するかを調べるために、超流動転移温度以下において、超流動揺らぎに対する対波動関数の応答関数を考える。超流動揺らぎを引き起こす外場として、対振幅 $\varPhi_{\bq}=\braket{\rho_-(-\bq)}$, $\varPhi_{\bq}^{\ast}=\braket{\rho_+(\bq)}$ を時刻 $t_0\to-\infty$ から印可することを考える。すなわち、次のように仮想的な外場を摂動として系に加える。
+\section{�������h�炬�ɑ΂���Δg���֐��̉����֐�}\label{sec:append:outoukansu}
+�񎥐��s�������܂ތn�ɂ����āA�ǂ̂悤�ȃ_�C�A�O�������������h�炬�Ɋ�^���邩�𒲂ׂ邽�߂ɁA�������]�ډ��x�ȉ��ɂ����āA�������h�炬�ɑ΂���Δg���֐��̉����֐����l����B�������h�炬�������N�����O��Ƃ��āA�ΐU�� $\varPhi_{\bq}=\braket{\rho_-(-\bq)}$, $\varPhi_{\bq}^{\ast}=\braket{\rho_+(\bq)}$ ������ $t_0\to-\infty$ �������邱�Ƃ��l����B���Ȃ킿�A���̂悤�ɉ��z�I�ȊO���ۓ��Ƃ��Čn�ɉ�����B
 \beq
 F_{\bq}(t)&=\sum_{\bp}\braket{c_{-\bp+\bqt,\dar} c_{\bp+\bqt,\dar}}\theta(t-t_0) = \varPhi_{\bq}\theta(t-t_0),\\
 F_{\bq}^{\ast}(t)&=\sum_{\bp}\braket{c_{\bp+\bqt,\dar}^{\dag}c_{-\bp+\bqt,\dar}^{\dag} }\theta(t-t_0) =\varPhi_{\bq}^{\ast}\theta(t-t_0).
 \eeq
-ここで $\rho_{\pm}(\bm{q})=\sum_{\bp} \varPsi_{\bp+\bqt}^{\dag} \tau_{\pm} \varPsi_{\bp-\bqt}$ であり、$\theta(t)$ は階段関数である。この時、摂動ハミルトニアンは、
+������ $\rho_{\pm}(\bm{q})=\sum_{\bp} \varPsi_{\bp+\bqt}^{\dag} \tau_{\pm} \varPsi_{\bp-\bqt}$ �ł���A$\theta(t)$ �͊K�i�֐��ł���B���̎��A�ۓ��n�~���g�j�A���́A
 \beq
 \hanah'(t) &= -U \sum_{\bq} \left[ \rho_+ (\bq) F_{\bq}(t) + F^{\ast}_{\bq}(t) \rho_-(-\bq)\right],\label{eq:append:ham:ext}
 \eeq
-となる。式 (\ref{eq:append:ham:ext}) による対波動関数 $\varPhi_{\bq}=\braket{\rho_-(-\bq)}$, $\varPhi_{\bq}^{\ast}=\braket{\rho_+(\bq)}$  の線形応答を調べると、
+�ƂȂ�B�� (\ref{eq:append:ham:ext}) �ɂ��Δg���֐� $\varPhi_{\bq}=\braket{\rho_-(-\bq)}$, $\varPhi_{\bq}^{\ast}=\braket{\rho_+(\bq)}$  �̐��`�����𒲂ׂ�ƁA
 \beq
 &\delta \varPhi_{\bq} (t)=-i \int^{\infty}_{\infty} \diff t' \Tr \left\{\rho_{\text{eq}} \left[\hanah'(t),\rho_-(-\bq,t)\right]\right\}\notag\\
 &\qquad =iU  \int^{\infty}_{-\infty} \diff t'\left[\braket{\left[\rho_+(\bm{q},t'), \rho_-(-\bq,t)\right]}_{\text{eq}} F_{\bq}(t')+\braket{\left[\rho_-(-\bm{q},t'), \rho_-(-\bq,t)\right]}_{\text{eq}} F_{\bq}^{\ast}(t')\right]\notag\\
 &\qquad \equiv -U \int^{\infty}_{-\infty}\diff t'  \left[\chi_{-+}(\bq,t-t') F(t') + \chi_{--}(\bq,t-t')F_{\bq}^{\ast}(t')\right].\label{eq:append:below:deltaphi}
 \eeq
-となる。時間に関し、フーリエ変換すると、
+�ƂȂ�B���ԂɊւ��A�t�[���G�ϊ�����ƁA
 \beq
 \delta \varPhi_{\bq}(\omega) = - U \chi_{-+}(\bq, \omega) F_{\bq}(\omega) - U \chi_{--}(\bq,\omega) F^{\ast}_{\bq}(\omega).
 \eeq
-ここで、
+�����ŁA
 \beq
 \chi_{-\pm}(\bq,\omega) = \int^{\infty}_{-\infty} \diff t\ \chi_{-\pm}(\bq,t) e^{i \omega t}.
 \eeq
-$\delta \varPhi_{\bq}^{\ast}(\omega)$ に対しても同様の計算を行い、式 (\ref{eq:append:below:deltaphi}) のように $\chi_{+-}(\bq,\omega)$, $\chi_{++} (\bq,\omega)$ を導入すると、
+$\delta \varPhi_{\bq}^{\ast}(\omega)$ �ɑ΂��Ă����l�̌v�Z���s���A�� (\ref{eq:append:below:deltaphi}) �̂悤�� $\chi_{+-}(\bq,\omega)$, $\chi_{++} (\bq,\omega)$ �𓱓�����ƁA
 \beq
 \begin{pmatrix}
 \delta \varPhi_{\bq}^{\ast}(\omega) \\ \delta \varPhi_{\bq}(\omega)
@@ -171,76 +171,76 @@ $\delta \varPhi_{\bq}^{\ast}(\omega)$ に対しても同様の計算を行い、
 F_{\bq}^{\ast}(\omega) \\ F_{\bq}(\omega)
 \end{pmatrix}, \label{eq:append:below:deltaqom}
 \eeq
-を得る。式 (\ref{eq:append:below:deltaqom}）で定義した $\chi_{\pm\pm}$ は、Nambu 場で表された 2 体の遅延グリーン関数であり、ダイアグラム法で計算できる虚時間形式で計算した後、それを解析接続をすることで求めることができる。対応する虚時間形式の相関関数は、
+�𓾂�B�� (\ref{eq:append:below:deltaqom}�j�Œ�`���� $\chi_{\pm\pm}$ �́ANambu ��ŕ\���ꂽ 2 �̂̒x���O���[���֐��ł���A�_�C�A�O�����@�Ōv�Z�ł��鋕���Ԍ`���Ōv�Z������A�������͐ڑ������邱�Ƃŋ��߂邱�Ƃ��ł���B�Ή����鋕���Ԍ`���̑��֊֐��́A
 \beq
 \chi_{\pm\pm} (\bq, \tau) = - \braket{T_{\tau} \left\{ \rho_{\pm}(\pm\bq, \tau) \rho_{\pm}(\pm\bq,0)\right\} }
 \eeq
-のフーリエ変換、
+�̃t�[���G�ϊ��A
 \beq
 \chi_{\pm\pm}(\bq,i \num) = \int^{\beta}_0 \diff \tau \chi_{\pm\pm} ( \bq, \tau) e^{i \num \tau},
 \eeq
-で与えられる。
+�ŗ^������B
 
-\section{応答関数のダイアグラム展開}\label{sec:append:outoukansudiagram}
+\section{�����֐��̃_�C�A�O�����W�J}\label{sec:append:outoukansudiagram}
 
-\ref{sec:append:outoukansu} 節で考えた $\chi_{\pm\pm}(\bq, i \num)$ を、 1 粒子温度グリーン関数とコンシステントになるような近似を行うことが重要である。これはワード高橋恒等式を満たすよう理論を構成することに等しい \cite{schrieffer1983}。
+\ref{sec:append:outoukansu} �߂ōl���� $\chi_{\pm\pm}(\bq, i \num)$ ���A 1 ���q���x�O���[���֐��ƃR���V�X�e���g�ɂȂ�悤�ȋߎ����s�����Ƃ��d�v�ł���B����̓��[�h�����P�����𖞂����悤���_���\�����邱�Ƃɓ����� \cite{schrieffer1983}�B
 
 \begin{figure}[t]
 \begin{center}
 \includegraphics[width=100mm]{eps/belowtc-vtx-full.eps}
 \end{center}
-\caption{非磁性不純物を含む BCS-Leggett 理論の自己エネルギー（式 (\ref{eq:form:mnf:sig})）とコンシステントな 3 点バーテックス $\widetilde{\varGamma}$。2本線は非磁性不純物 BCS-Leggett 理論で求まるグリーン関数 $\bgimppom$ を表す。右辺第一項はグリーン関数に外場を直接挿入した裸のバーテックスであり、$\tau_{\pm}$ で表される。右辺第二項は不純物散乱によるの自己エネルギー中の全てのグリーン関数に外場を挿入することで得られるもので、$\times$ 印は不純物濃度 $c$、黒三角形は BCS-Leggett 理論で用いた黒三角形と同じ $\vvtxn$ である。右辺最終項は原子間相互作用のダイアグラム中の 1 粒子グリーン関数に外場を挿入することで得られる 3 点バーテックスである。}
+\caption{�񎥐��s�������܂� BCS-Leggett ���_�̎��ȃG�l���M�[�i�� (\ref{eq:form:mnf:sig})�j�ƃR���V�X�e���g�� 3 �_�o�[�e�b�N�X $\widetilde{\varGamma}$�B2�{���͔񎥐��s���� BCS-Leggett ���_�ŋ��܂�O���[���֐� $\bgimppom$ ��\���B�E�ӑ�ꍀ�̓O���[���֐��ɊO��𒼐ڑ}���������̃o�[�e�b�N�X�ł���A$\tau_{\pm}$ �ŕ\�����B�E�ӑ�񍀂͕s�����U���ɂ��̎��ȃG�l���M�[���̑S�ẴO���[���֐��ɊO���}�����邱�Ƃœ�������̂ŁA$\times$ ��͕s�����Z�x $c$�A���O�p�`�� BCS-Leggett ���_�ŗp�������O�p�`�Ɠ��� $\vvtxn$ �ł���B�E�ӍŏI���͌��q�ԑ��ݍ�p�̃_�C�A�O�������� 1 ���q�O���[���֐��ɊO���}�����邱�Ƃœ����� 3 �_�o�[�e�b�N�X�ł���B}
 \label{fig:below:vtx:full}
 \end{figure}
 
 
-無摂動状態として、図 \ref{fig:form:mnf:sigimp} に示した非磁性不純物を含む BCS-Leggett 理論で記述される状態を考える。この時、平均場理論の自己エネルギー（式 (\ref{eq:form:mnf:sig})）中の 1 粒子グリーン関数の全てに外場のダイアグラムを“差し込んで”得られる 3 点バーテックス $\widetilde{\varGamma}$ を用いることでワード高橋恒等式を満たすことができる。これを行うと $\widetilde{\varGamma}$ は、図 \ref{fig:below:vtx:full} のダイアグラムで与えられる。式 (\ref{eq:append:ham:ext}) で与えられる摂動ハミルトニアンを平均場の自己エネルギーに挿入するので、その部分には $\tau_{\pm}$ の行列要素が付与される。また、図 \ref{fig:below:vtx:full} 中の $\vvtxn$ は、
+���ۓ���ԂƂ��āA�} \ref{fig:form:mnf:sigimp} �Ɏ������񎥐��s�������܂� BCS-Leggett ���_�ŋL�q������Ԃ��l����B���̎��A���Ϗꗝ�_�̎��ȃG�l���M�[�i�� (\ref{eq:form:mnf:sig})�j���� 1 ���q�O���[���֐��̑S�ĂɊO��̃_�C�A�O�������g��������Łh������ 3 �_�o�[�e�b�N�X $\widetilde{\varGamma}$ ��p���邱�ƂŃ��[�h�����P�����𖞂������Ƃ��ł���B������s���� $\widetilde{\varGamma}$ �́A�} \ref{fig:below:vtx:full} �̃_�C�A�O�����ŗ^������B�� (\ref{eq:append:ham:ext}) �ŗ^������ۓ��n�~���g�j�A���𕽋Ϗ�̎��ȃG�l���M�[�ɑ}������̂ŁA���̕����ɂ� $\tau_{\pm}$ �̍s��v�f���t�^�����B�܂��A�} \ref{fig:below:vtx:full} ���� $\vvtxn$ �́A
 \beq
 \vvtxn = \frac{1}{\frac{m}{2 \pi \bs} \tau_3 - \sum_{\bpp}\left[ \bgimpppom +  \frac{\tau_3}{\ken_{\bpp}}\right]},\label{eq:asdfasdfasdfasdf}
 \eeq
-で与えられる。
+�ŗ^������B
 
 \newcommand{\tsom}{T^{s}_{\bq}(i\omn,i\omn+i\num)}
 \begin{figure}[t]
 \begin{center}
 \includegraphics[width=120mm]{eps/belowtc-vtx-imp.eps}
 \end{center}
-\caption{非磁性不純物散乱のみを考慮した 3 点バーテックス $\tsom$ のファインマンダイアグラム。}
+\caption{�񎥐��s�����U���݂̂��l������ 3 �_�o�[�e�b�N�X $\tsom$ �̃t�@�C���}���_�C�A�O�����B}
 \label{fig:below:vtx:imp} 
 \end{figure}
 
 
-この 3 点バーテックス $\widetilde{\varGamma}$ を計算するために、まず図 \ref{fig:below:vtx:imp} のように散乱前後で松原周波数を変化させない不純物散乱に因るバーテックス補正のみを足しあげる。これを $\tsom$ と書くと、
+���� 3 �_�o�[�e�b�N�X $\widetilde{\varGamma}$ ���v�Z���邽�߂ɁA�܂��} \ref{fig:below:vtx:imp} �̂悤�ɎU���O��ŏ������g����ω������Ȃ��s�����U���Ɉ���o�[�e�b�N�X�␳�݂̂𑫂�������B����� $\tsom$ �Ə����ƁA
 \beq
 \tsom &= \tau_s\notag\\
 & + c \sum_{\bpp} \vvtxn \bgimpppom \tsom \notag\\
 & \times \bgimp_{\bpp+\bq}(i\omn+i\num) \vvtx (i\omn+i\num).\label{eq:append:tma:tsom}
 \eeq
 
-この式 (\ref{eq:append:tma:tsom}) は $\tsom$ について解くことができる。そのために以下の手順に従って、$2 \times 2 $ 行列を $4\times 4$  行列へと書き換え、右辺第二項の $\tsom$ を 4 成分ベクトルに書き換えたものに、左からのみ行列がかかるように書き換える。まず
+���̎� (\ref{eq:append:tma:tsom}) �� $\tsom$ �ɂ��ĉ������Ƃ��ł���B���̂��߂Ɉȉ��̎菇�ɏ]���āA$2 \times 2 $ �s��� $4\times 4$  �s��ւƏ��������A�E�ӑ�񍀂� $\tsom$ �� 4 �����x�N�g���ɏ������������̂ɁA������̂ݍs�񂪂�����悤�ɏ���������B�܂�
 \beq
 A_{2 \times 2} = \begin{pmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{pmatrix},
 \eeq
-とかける $2 \times 2$ 行列に対し、$A_{2 \times 2}$ が $\tsom$ へ左から演算される場合には、
+�Ƃ����� $2 \times 2$ �s��ɑ΂��A$A_{2 \times 2}$ �� $\tsom$ �֍����牉�Z�����ꍇ�ɂ́A
 \beq
 A_{2 \times 2} \longleftrightarrow A_{4\times 4}^{(\text{L})} \equiv A_{2\times 2} \otimes \bm{1} ={\tiny \begin{pmatrix} a_{11} &0&a_{12}& 0\\0&a_{11} & 0 & a_{12} \\ a_{21} & 0 & a_{22}& 0 \\ 0& a_{21}& 0 &a_{22}\end{pmatrix}},\label{eq:a22toal44}
 \eeq
-のように $4 \times 4$ 行列 $A_{4 \times 4}^{(\text{L})}$ へと書き換える。次に、$A_{2 \times 2}$ が $\tsom$ に右から演算する場合には、
+�̂悤�� $4 \times 4$ �s�� $A_{4 \times 4}^{(\text{L})}$ �ւƏ���������B���ɁA$A_{2 \times 2}$ �� $\tsom$ �ɉE���牉�Z����ꍇ�ɂ́A
 \beq
 A_{2 \times 2} \longleftrightarrow A_{4\times 4}^{(\text{R})} \equiv \bm{1} \otimes A_{2\times 2}^{T} = {\tiny \begin{pmatrix} a_{11} &a_{21}&0 &0  \\ a_{12} & a_{22}& 0 & 0 \\ 0&0&a_{11}&a_{21} \\ 0&0&a_{12}&a_{22}\end{pmatrix}},\label{eq:a22toar44}
 \eeq
-と $4 \times 4$ 行列 $A_{4 \times 4}^{(\text{R})}$ へと書き換えて、$\tsom$ に対して左から演算させる。また、$T^s$ そのものは 4 成分ベクトルへと書き換えは以下のように行う。$2 \times 2$ 行列 $B_{2 \times 2}$ と $4$ 次元ベクトル $B_4$ の対応づけは、2 つの 2 次元ベクトル $z^{T}=(z_1, z_2)$, $w^{T}=(w_1, w_2)$ を用いて、
+�� $4 \times 4$ �s�� $A_{4 \times 4}^{(\text{R})}$ �ւƏ��������āA$\tsom$ �ɑ΂��č����牉�Z������B�܂��A$T^s$ ���̂��̂� 4 �����x�N�g���ւƏ��������͈ȉ��̂悤�ɍs���B$2 \times 2$ �s�� $B_{2 \times 2}$ �� $4$ �����x�N�g�� $B_4$ �̑Ή��Â��́A2 �� 2 �����x�N�g�� $z^{T}=(z_1, z_2)$, $w^{T}=(w_1, w_2)$ ��p���āA
 \beq
 B_{2 \times 2}= z \otimes w^T = \begin{pmatrix} z_1w_1 & z_1 w_2 \\ z_2 w_1 & z_2 w_2\end{pmatrix} \longleftrightarrow B_{4}=z\otimes w =\begin{pmatrix}z_1 w_1\\z_1w_2\\z_2w_1\\z_2w_2\end{pmatrix},\label{eq:b22tob4}
 \eeq
-と書き換える。式 (\ref{eq:a22toal44}), (\ref{eq:a22toar44}), (\ref{eq:b22tob4}) から、
+�Ə���������B�� (\ref{eq:a22toal44}), (\ref{eq:a22toar44}), (\ref{eq:b22tob4}) ����A
 \beq
 &A^1_{2\times2} A^2_{2 \times 2} \cdots A^n_{2 \times 2} B_{2 \times 2 } C^{1}_{2 \times 2} C^2_{2 \times 2} \cdots C^{m}_{2 \times 2}\notag\\
 &\quad \longleftrightarrow A^{1 (L)}_{4 \times 4}A^{2 (L)}_{4 \times 4} \cdots A^{n (L)}_{4 \times 4}C^{m (R)}_{4 \times 4}\cdots C^{2 (R)}_{4 \times 4} A^{1 (R)}_{4 \times 4} B_{4},\label{eq:rewritingssss}
 \eeq
-という書き換えができる。
+�Ƃ��������������ł���B
 
-式 (\ref{eq:append:tma:tsom}) は、式 (\ref{eq:rewritingssss}) の書き換えを、$\tsom \leftrightarrow B_{2 \times2 }$ として用いることで、次のように $\tsom$ について解くことができる。
+�� (\ref{eq:append:tma:tsom}) �́A�� (\ref{eq:rewritingssss}) �̏����������A$\tsom \leftrightarrow B_{2 \times2 }$ �Ƃ��ėp���邱�ƂŁA���̂悤�� $\tsom$ �ɂ��ĉ������Ƃ��ł���B
 \beq
 &\left[ T^{s}_{\bq}(i \omn, i \omn+i\num)\right]_{4} = \left[\vphantom{ \sum_{\bpp} } 1-c \left[\vvtxn \right]^{(\text{L})}_{4\times 4} \left[V_{\imp}(i\omn+i \num) \right]^{(\text{R})}_{4\times4} \right.\notag\\
 &\qquad \left. \times \sum_{\bpp} \left[\bgimp_{\bpp}(i\omn+i \num) \right]^{(\text{L})}_{4\times 4}  \left[\bgimp_{\bpp+\bq}(i\omn+i \num) \right]^{(\text{R})}_{4\times 4} \right]^{-1} \left[ \tau_s\right]_4.\label{eq:append:asdfasdfasdf}
@@ -252,7 +252,7 @@ B_{2 \times 2}= z \otimes w^T = \begin{pmatrix} z_1w_1 & z_1 w_2 \\ z_2 w_1 & z_
 \begin{center}
 \includegraphics[width=100mm]{eps/belowtc-pi-imp.eps}
 \end{center}
-\caption{不純物散乱による補正を受けた対相関関数 $\varPi^{\imp, ss'}(i\num)$。黒四角は図 \ref{fig:below:vtx:imp} で示した不純物による 3 点バーテックス $\tsom$。}
+\caption{�s�����U���ɂ��␳���󂯂��Α��֊֐� $\varPi^{\imp, ss'}(i\num)$�B���l�p�͐} \ref{fig:below:vtx:imp} �Ŏ������s�����ɂ�� 3 �_�o�[�e�b�N�X $\tsom$�B}
 \label{fig:below:pi:ppp}
 \end{figure}
 
@@ -260,20 +260,20 @@ B_{2 \times 2}= z \otimes w^T = \begin{pmatrix} z_1w_1 & z_1 w_2 \\ z_2 w_1 & z_
 \begin{center}
 \includegraphics[width=120mm]{eps/belowtc-gam-dyson.eps}
 \end{center}
-\caption{原子間相互作用に対する補正を表す $\varGamma^{ss'}_{\bq}(i\num)$。図 \ref{fig:below:vtx:full} の 3 点バーテックス $\widetilde{\varGamma}$ において、原子間相互作用部分を解くために用いる。}
+\caption{���q�ԑ��ݍ�p�ɑ΂���␳��\�� $\varGamma^{ss'}_{\bq}(i\num)$�B�} \ref{fig:below:vtx:full} �� 3 �_�o�[�e�b�N�X $\widetilde{\varGamma}$ �ɂ����āA���q�ԑ��ݍ�p�������������߂ɗp����B}
 \label{fig:below:gam:ppp}
 \end{figure}
 
-次に原子間相互作用によるバーテックス補正を考える。図 \ref{fig:below:pi:ppp} のように不純物による頂点補正を繰り込んだ南部場のループを $\varPi^{\text{imp},ss'}_{\bq}(i\num)$ （$s, s'=\pm$）とすると、
+���Ɍ��q�ԑ��ݍ�p�ɂ��o�[�e�b�N�X�␳���l����B�} \ref{fig:below:pi:ppp} �̂悤�ɕs�����ɂ�钸�_�␳���J�荞�񂾓암��̃��[�v�� $\varPi^{\text{imp},ss'}_{\bq}(i\num)$ �i$s, s'=\pm$�j�Ƃ���ƁA
 \beq
 &\varPi^{\text{imp},ss'}_{\bq}(i\num) \notag\\
 &\qquad = \frac{1}{\beta}\sum_{i \omega_n}\sum_{\bp}\Tr \left[ \tsom \bgimp_{\bp+\bq}(i\omn+i\num) \tau_{s'}  \bgimppom \right], \label{eq:varpispaidf}
 \eeq 
-となる。この $\varPi^{\text{imp},ss'}$ を用いて、フェルミオン間相互作用の散乱行列 $\varGamma^{s,s'}_{\bq}(i \num)$ は、図 \ref{fig:below:gam:ppp} より、
+�ƂȂ�B���� $\varPi^{\text{imp},ss'}$ ��p���āA�t�F���~�I���ԑ��ݍ�p�̎U���s�� $\varGamma^{s,s'}_{\bq}(i \num)$ �́A�} \ref{fig:below:gam:ppp} ���A
 \beq
 &\varGamma^{s,s'}_{\bq}(i \num) = -U \delta_{s, -s'} -U\varPi^{\text{imp},ss''}_{\bq}(i\num) \varGamma^{-s'',s'}_{\bq}(i\num),\label{eq:append:asdfjjjjjjj}
 \eeq
-となる。これより、
+�ƂȂ�B������A
 \beq
 \begin{pmatrix}
 \varGamma^{+-}_{\bq}(i\num) &\varGamma^{++}_{\bq}(i\num)\\
@@ -287,70 +287,70 @@ B_{2 \times 2}= z \otimes w^T = \begin{pmatrix} z_1w_1 & z_1 w_2 \\ z_2 w_1 & z_
 \varPi^{\imp,--}_{\bq}(i\num) & \varPi^{\imp,-+}_{\bq}(i\num)
 \end{pmatrix},\label{eq:append:gam:gam}
 \eeq
-を得る。以上から $\widetilde{\varGamma}_{\bq}^{s}(i \omn, i \omn+i\num)$ は、
+�𓾂�B�ȏォ�� $\widetilde{\varGamma}_{\bq}^{s}(i \omn, i \omn+i\num)$ �́A
 \beq
 &\widetilde{\varGamma}_{\bq}^{s}(i \omn, i \omn+i\num) = \tsom +  \sum_{s',s''=\pm}T_{\bq}^{s'}(i \omn, i \omn+i\num) \varGamma^{-s',-s''}_{-\bq}(-i\num) \notag\\
 &\qquad \times \frac{1}{\beta}\sum_{i \omega_n'}\sum_{\bpp}\Tr \left[ T^{s''}_{-\bq}(i\omn'+i\num,i\omn') \bgimppomp \widetilde{\varGamma}_{\bq}^{s}(i\num)  \bgimp_{\bpp+\bq}(i\omn'+i\num) \right].
 \eeq
-これを用いると、超流動ゆらぎを表す対相関関数 $\chi_{ss'} (\bq, i\num)$ は次のようになる。
+�����p����ƁA��������炬��\���Α��֊֐� $\chi_{ss'} (\bq, i\num)$ �͎��̂悤�ɂȂ�B
 \beq
 \chi_{ss'} (\bq, i\num) =\frac{1}{\beta} \sumn \sum_{\bp} \Tr \left[\tau_{s} \bgimppom \widetilde{\varGamma}_{\bq}^{s'}(i \omn, i \omn+i\num)  \bgimp_{\bp+\bq}(i\omn+i\num)\right]
 .\eeq
 
-\section{超流動状態におけるの非磁性不純物が存在する場合の $T$ 行列理論}\label{sec:append:outouttmat}
+\section{��������Ԃɂ�����̔񎥐��s���������݂���ꍇ�� $T$ �s�񗝘_}\label{sec:append:outouttmat}
 
-\ref{sec:form:bcsl} 節の非磁性不純物含む BCS-Leggett 理論のグリーン関数、
+\ref{sec:form:bcsl} �߂̔񎥐��s�����܂� BCS-Leggett ���_�̃O���[���֐��A
 \beq
 \bgimppom = \frac{1}{i \tomn - \left[ \ken_{\bp} - \tcptn\right] \tau_3 + \tdeln \tau_1},\label{eq:thissection:f:f}
 \eeq
-は式 (\ref{eq:form:ham:abcslimp}), (\ref{eq:form:mnf:gimpopmpom}) を解くことで決定される。このグリーン関数 $\bgimppom$ を無摂動のグリーン関数とする。
+�͎� (\ref{eq:form:ham:abcslimp}), (\ref{eq:form:mnf:gimpopmpom}) ���������ƂŌ��肳���B���̃O���[���֐� $\bgimppom$ �𖳐ۓ��̃O���[���֐��Ƃ���B
 
 
 \begin{figure}[t]
 \begin{center}
 \includegraphics[width=120mm]{eps/belowtc-dyson.eps}
 \end{center}
-\caption{非磁性不純物を含むフェルミ原子気体の強結合効果に対する $T$ 行列理論のダイソン方程式。太線は 1 粒子グリーン関数 $\bgpom$、二重波線は $\varGamma^{ss'}$ (式 (\ref{eq:append:gam:gam}))、二重実線は BCS-Leggett 理論のグリーン関数 $\bgimppom$, $\times$ 付きの黒三角形は $T^s$ (式 (\ref{eq:append:tma:tsom})) を表す。}
+\caption{�񎥐��s�������܂ރt�F���~���q�C�̂̋��������ʂɑ΂��� $T$ �s�񗝘_�̃_�C�\���������B������ 1 ���q�O���[���֐� $\bgpom$�A��d�g���� $\varGamma^{ss'}$ (�� (\ref{eq:append:gam:gam}))�A��d������ BCS-Leggett ���_�̃O���[���֐� $\bgimppom$, $\times$ �t���̍��O�p�`�� $T^s$ (�� (\ref{eq:append:tma:tsom})) ��\���B}
 \label{fig:below:dyson:all}
 \end{figure}
 
-前節で求めた $\tsom$（式 (\ref{eq:append:asdfasdfasdf})）、$\varGamma^{s,s'}_{\bq}(i \num)$ (式 (\ref{eq:append:asdfjjjjjjj})）を用いて、 非磁性不純物の $T$ 行列理論は図 \ref{fig:below:dyson:all} によって与えられる。図 \ref{fig:below:dyson:all} の自己エネルギーは、
+�O�߂ŋ��߂� $\tsom$�i�� (\ref{eq:append:asdfasdfasdf})�j�A$\varGamma^{s,s'}_{\bq}(i \num)$ (�� (\ref{eq:append:asdfjjjjjjj})�j��p���āA �񎥐��s������ $T$ �s�񗝘_�͐} \ref{fig:below:dyson:all} �ɂ���ė^������B�} \ref{fig:below:dyson:all} �̎��ȃG�l���M�[�́A
 \beq
 \bsigpom &= (-1)^{n=1} \frac{1}{\beta}\sumn \sum_{\bp} \sum_{s,s'=\pm} \varGamma^{ss'}_{\bq}(i\num) T^{-s'}_{\bq}(i\omn,i\omn+i\num) \notag\\
 &\qquad \times \bggg^{\imp}_{\bp+\bq}(i\omn+i\num) T^{-s}_{-\bq}(i\omn+i\num,i\omn),\label{eq:append:eq:bsigpom}
 \eeq
-となる。
+�ƂȂ�B
 
-自己エネルギー（式 (\ref{eq:append:eq:bsigpom})）を、式 (\ref{eq:asdfasdfasdfasdf})、 (\ref{eq:append:asdfjjjjjjj})、 (\ref{eq:append:asdfjjjjjjj})-(\ref{eq:thissection:f:f}) から求め、
+���ȃG�l���M�[�i�� (\ref{eq:append:eq:bsigpom})�j���A�� (\ref{eq:asdfasdfasdfasdf})�A (\ref{eq:append:asdfjjjjjjj})�A (\ref{eq:append:asdfjjjjjjj})-(\ref{eq:thissection:f:f}) ���狁�߁A
 \beq
 \bgpom= \frac{1}{\left[ \bgimppom\right]^{-1} - \bsigpom},
 \eeq
-として、 1 粒子グリーン関数を計算することができる。
+�Ƃ��āA 1 ���q�O���[���֐����v�Z���邱�Ƃ��ł���B
 
 
 \clearpage
-\section{超流動転移温度以上への書き換え方法}\label{sec:append:rewritetmat}
+\section{�������]�ډ��x�ȏ�ւ̏����������@}\label{sec:append:rewritetmat}
 
 
 \begin{figure}[t]
 \begin{center}
 \includegraphics[width=70mm]{eps/rewriting-grenn.eps}
 \end{center}
-\caption{ 2 成分南部場表示でのグリーン関数の超流動転移温度以上での書き換え。二重実線は南部表示による $2 \times 2$ 行列グリーン関数。波線と実線の二重線は 1 成分表示でのグリーン関数。}
+\caption{ 2 �����암��\���ł̃O���[���֐��̒������]�ډ��x�ȏ�ł̏��������B��d�����͓암�\���ɂ�� $2 \times 2$ �s��O���[���֐��B�g���Ǝ����̓�d���� 1 �����\���ł̃O���[���֐��B}
 \label{fig:below:dyson:rewrite-grenn}
 \end{figure}
 
-超流動転移温度以上では $\del=0$ となるので、図 \ref{fig:below:dyson:rewrite-grenn} のようにグリーン関数の非対角要素がゼロになり、
+�������]�ډ��x�ȏ�ł� $\del=0$ �ƂȂ�̂ŁA�} \ref{fig:below:dyson:rewrite-grenn} �̂悤�ɃO���[���֐��̔�Ίp�v�f���[���ɂȂ�A
 \beq
 \bggg_{\bp}^{\imp}(i\omn) = \begin{pmatrix} G_{\bp\uar}^{\imp}(i\omn) &0\\0&-G^{\imp}_{-\bp\dar}(-i\omn)\end{pmatrix},\label{eq:section:f:h}
 \eeq
-と 1 成分のグリーン関数に分解できる。
+�� 1 �����̃O���[���֐��ɕ����ł���B
 
 \begin{figure}[t]
 \begin{center}
 \includegraphics[width=90mm]{eps/rewriting-loop.eps}
 \end{center}
-\caption{南部表示でのループ構造部分を 1 成分のグリーン関数に書き換える方法。グラフルールにおけるフェルミ粒子線ループから出る左辺のマイナス符号は、右辺では図 \ref{fig:below:dyson:rewrite-grenn} の書き換えからくる符号で表現される。}
+\caption{�암�\���ł̃��[�v�\�������� 1 �����̃O���[���֐��ɏ�����������@�B�O���t���[���ɂ�����t�F���~���q�����[�v����o�鍶�ӂ̃}�C�i�X�����́A�E�ӂł͐} \ref{fig:below:dyson:rewrite-grenn} �̏����������炭�镄���ŕ\�������B}
 \label{fig:below:dyson:rewrite-loop}
 \end{figure}
 
@@ -358,15 +358,15 @@ B_{2 \times 2}= z \otimes w^T = \begin{pmatrix} z_1w_1 & z_1 w_2 \\ z_2 w_1 & z_
 \begin{center}
 \includegraphics[width=70mm,bb=0 0 519 678]{eps/rewriting.png}
 \end{center}
-\caption{南部場での行列ダイアグラムの 1 成分のダイアグラムへの書き換え。1 成分グリーン関数に分解するためには、南部表示で $\tau_{\pm}$ が現れる部分で 1 成分表示のグリーン関数の向きが変わるので、一度切り分ける。切り分けたグリーン関数を、一つの直線上で粒子数やスピンが保存するように再度つなぎ直し、トポロジカルに等しいダイアグラムへと整理する。}
+\caption{�암��ł̍s��_�C�A�O������ 1 �����̃_�C�A�O�����ւ̏��������B1 �����O���[���֐��ɕ������邽�߂ɂ́A�암�\���� $\tau_{\pm}$ ������镔���� 1 �����\���̃O���[���֐��̌������ς��̂ŁA��x�؂蕪����B�؂蕪�����O���[���֐����A��̒�����ŗ��q����X�s�����ۑ�����悤�ɍēx�Ȃ������A�g�|���W�J���ɓ������_�C�A�O�����ւƐ�������B}
 \label{fig:below:dyson:rewrite}
 \end{figure}
 
-同様に、南部場のループは図 \ref{fig:below:dyson:rewrite-loop} のように 1 成分のダイアグラムへと分解できる。ダイアグラムルールを適用すると、図 \ref{fig:below:dyson:rewrite-loop} の左辺はフェルミオンのループがあるために負符号が出るが、式 (\ref{eq:section:f:h}) のグリーン関数の $(2,2)$ 成分への書き換え時に出てくる負符号によって相殺するので、ループがないダイアグラムへの書き換えができる。
+���l�ɁA�암��̃��[�v�͐} \ref{fig:below:dyson:rewrite-loop} �̂悤�� 1 �����̃_�C�A�O�����ւƕ����ł���B�_�C�A�O�������[����K�p����ƁA�} \ref{fig:below:dyson:rewrite-loop} �̍��ӂ̓t�F���~�I���̃��[�v�����邽�߂ɕ��������o�邪�A�� (\ref{eq:section:f:h}) �̃O���[���֐��� $(2,2)$ �����ւ̏����������ɏo�Ă��镉�����ɂ���đ��E����̂ŁA���[�v���Ȃ��_�C�A�O�����ւ̏����������ł���B
 
-図 \ref{fig:below:dyson:rewrite-grenn} と 図 \ref{fig:below:dyson:rewrite-loop} の書き換え方法を用いて、南部場で書かれた $T$ 行列理論を 1 成分で書かれた $T$ 行列理論へと書き換える方法の一例として図 \ref{fig:below:dyson:rewrite} を記述した。
+�} \ref{fig:below:dyson:rewrite-grenn} �� �} \ref{fig:below:dyson:rewrite-loop} �̏����������@��p���āA�암��ŏ����ꂽ $T$ �s�񗝘_�� 1 �����ŏ����ꂽ $T$ �s�񗝘_�ւƏ�����������@�̈��Ƃ��Đ} \ref{fig:below:dyson:rewrite} ���L�q�����B
 
-以上の書き換えを用いれば、\ref{sec:form:tmat} 節で定義した記号を右辺に用いて、
+�ȏ�̏���������p����΁A\ref{sec:form:tmat} �߂Œ�`�����L�����E�ӂɗp���āA
 \beq
 \bvvtxn &=  \begin{pmatrix} V_{\imp}(i \omn) & 0 \\ 0& -V_{\imp}(-i\omn) \end{pmatrix},\notag\\
 T^{+}_{\bq}(i\omn,i\omn+i\num)&=t_q(i\omn,-i\omn-i\num) \tau_+,\notag\\
@@ -378,21 +378,21 @@ T^{-}_{\bq}(i\omn,i\omn+i\num)&=t_q(-i\omn,i\omn+i\num) \tau_-,\notag\\
  \varGamma^{-+}_{\bq} (i\num) &= \varGamma_{\bq \dar}(i\num),\notag\\
 \varSigma_{\bp}^{11}(i\omn) &= - \varSigma_{\bp\uar}(i\omn), \notag\\
 \varSigma_{\bp}^{22}(i \omn) &= - \varSigma_{\bp\dar}(i\omn)
-\eeq　
-等の関係が示せ、これらを用いることで \ref{sec:form:tmat} 節の定式化に帰着する。
+\eeq�@
+���̊֌W�������A������p���邱�Ƃ� \ref{sec:form:tmat} �߂̒莮���ɋA������B
 
-\chapter{状態密度の計算方法}\label{sec:append:dosodosdoododosdosodosda}
+\chapter{��Ԗ��x�̌v�Z���@}\label{sec:append:dosodosdoododosdosodosda}
 
-1 粒子温度グリーン関数 $\gpom$ を $\omn>0$ に対し、$i\omn\to\omega+i \delta$ と解析接続したものは、遅延グリーン関数,
+1 ���q���x�O���[���֐� $\gpom$ �� $\omn>0$ �ɑ΂��A$i\omn\to\omega+i \delta$ �Ɖ�͐ڑ��������̂́A�x���O���[���֐�,
 \beq
 G_{\bp}(t) = - i \theta(t) \braket{\left[c_{\bp}(t), c^{\dag}_{\bp}(0)\right]_{+}},
 \eeq
-をフーリエ変換したものと一致する \cite{zubarev1960}。これを利用すると、 1 粒子スペクトル強度 $A_{\bp}(\omega)$ は、
+���t�[���G�ϊ��������̂ƈ�v���� \cite{zubarev1960}�B����𗘗p����ƁA 1 ���q�X�y�N�g�����x $A_{\bp}(\omega)$ �́A
 \beq
 A_{\bp}(\omega) = - \frac{1}{ \pi} \im G_{\bp}(i \omn \to \omega + i \delta).
 \eeq
-のように解析接続された温度グリーン関数の虚部で与えられ、それを運動量 $\bp$ で和を取ることにより 1 粒子状態密度が得られる：
+�̂悤�ɉ�͐ڑ����ꂽ���x�O���[���֐��̋����ŗ^�����A������^���� $\bp$ �Řa����邱�Ƃɂ�� 1 ���q��Ԗ��x��������F
 \beq
 \rho(\omega) = - \frac{1}{ \pi} \im \sum_{\bp} G_{\bp}(i \omn \to \omega+ i \delta).
 \eeq
-2 成分南部場で表示した温度グリーン関数を用いる場合、行列要素のうち $(1,1)$ 成分に対し、同様の操作をすることで、粒子の状態密度を計算することができる。尚、本論文では解析接続は Pad\'e 近似により数値的に行う。
+2 �����암��ŕ\���������x�O���[���֐���p����ꍇ�A�s��v�f�̂��� $(1,1)$ �����ɑ΂��A���l�̑�������邱�ƂŁA���q�̏�Ԗ��x���v�Z���邱�Ƃ��ł���B���A�{�_���ł͉�͐ڑ��� Pad\'e �ߎ��ɂ�萔�l�I�ɍs���B
